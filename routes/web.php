@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\homeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+// frontend
+Route::get('/', [homeController::class, 'home'])->name('index');
+Route::get('/challenge', [homeController::class, 'challenge'])->name('challenge');
+Route::get('/mentoring', [homeController::class, 'mentoring'])->name('mentoring');
+Route::get('/unlimited-download', [homeController::class, 'unlimited_download'])->name('unlimited_download');
+Route::get('/detail', [homeController::class, 'detail_product'])->name('detail');
+Route::get('/about', [homeController::class, 'about'])->name('about');
