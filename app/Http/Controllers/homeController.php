@@ -35,4 +35,9 @@ class homeController extends Controller
     {
         return view('frontend/about');
     }
+
+    public function detail_challenge()
+    {
+        return view('frontend/detail_challenge');
+    }
 }

@@ -48,6 +48,7 @@
 #mentor,
 #premium_download,
 #list-product,
+#desc-challenge,
 .benefit {
     margin-top: 100px;
 }
@@ -687,4 +688,61 @@
     align-items: center;
     padding: 0px;
     gap: 30px;
+}
+
+/* detail challenge */
+.box-image-challenge {
+    padding: 24px !important;
+    background-color: #b6ffd0;
+    border-radius: 16px;
+}
+
+.img-detail-challenge {
+    width: 68px;
+    height: 68px;
+}
+
+.title-detail-challenge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    margin-bottom: 16px;
+}
+
+.desc-detail-challenge {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    letter-spacing: 0.065em;
+
+    color: #616161;
+}
+
+.title-detail-desc {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 130%;
+    /* or 36px */
+
+    letter-spacing: 0.065em;
+
+    color: #000000;
+    margin-bottom: 28px;
+}
+
+.img-detail-desc {
+    width: 440px;
+    height: auto;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

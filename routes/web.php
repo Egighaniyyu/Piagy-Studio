@@ -21,3 +21,4 @@ Route::get('/mentoring', [homeController::class, 'mentoring'])->name('mentoring'
 Route::get('/unlimited-download', [homeController::class, 'unlimited_download'])->name('unlimited_download');
 Route::get('/detail', [homeController::class, 'detail_product'])->name('detail');
 Route::get('/about', [homeController::class, 'about'])->name('about');
+Route::get('/detail-challenge', [homeController::class, 'detail_challenge'])->name('detail_challenge');
